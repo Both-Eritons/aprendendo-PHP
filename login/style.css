@@ -1,0 +1,129 @@
+:root {
+  /*change to your level | mude para teu level*/
+  --html: 74%;
+  --css3: 45%;
+  --js: 14%;
+  --jq: 10%;
+  --bts: 5%;
+
+  --height: 20px;
+}
+
+* {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: #42445A;
+}
+
+.skills {
+  max-width: 550px;
+  margin: 60px auto;
+  color: white;
+}
+
+.skills h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.skills li {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skills .bar {
+  background: #7B7D9D;
+  display: block;
+  height: var(--height);
+  overflow: hidden;
+  box-shadow: 0 0 10px #7B7D9D;
+  position: relative;
+
+}
+
+.bar span {
+  height: var(--height);
+  background: #00FF88;
+  position: absolute;
+  left: 0;
+}
+
+.html {
+  width: var(--html);
+  animation: html 2s linear;
+}
+
+.css {
+  width: var(--css3);
+  animation: css 2s linear;
+}
+
+.jq {
+  width: var(--jq);
+  animation: jq 2s linear;
+}
+
+.js {
+  width: var(--js);
+  animation: js 2s linear;
+}
+
+.bts {
+  width: var(--bts);
+  animation: bts 2s linear;
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: var(--html);
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: var(--css3);
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: var(--js);
+  }
+}
+
+@keyframes jq {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: var(--jq);
+  }
+}
+
+@keyframes bts {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: var(--bts);
+  }
+}
+
