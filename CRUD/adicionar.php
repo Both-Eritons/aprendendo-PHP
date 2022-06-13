@@ -12,7 +12,7 @@
 				<label for="sobrenome">Sobrenome</label>
 			</div>
 			<div class="input-field col s12">
-				<input type="email" name="email" id="email">
+				<input type="text" name="email" id="email">
 				<label for="email">Email</label>
 			</div>
 			<div class="input-field col s12">
@@ -20,7 +20,7 @@
 				<label for="idade">Idade</label>
 			</div>
 			<button type="submit" name="btn_cadastrar" class="btn">cadastrar</button>
-			<a href="" class="btn green">Lista de Clientes</a>
+			<a href="index.php" class="btn green">Lista de Clientes</a>
 		</form>
 	</div>
 </div>
